@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Turismo',
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: const RegisterPage(title: 'Flutter Demo Home Page'),
+      home: const RegisterPage(title: 'Turismo'),
     );
   }
 }
